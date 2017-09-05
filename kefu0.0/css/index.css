@@ -1,0 +1,613 @@
+/*初识化*/
+#topBar {
+    width: 100%;
+    height: 55px;
+    background-color: #fbfbfb;
+    z-index: 999;
+    position: relative;
+}
+
+.topBar-main {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.topBar-logo img {
+    margin-top: 5px;
+}
+
+/*--------------------------------------*/
+/*--- 注册账号-安卓充值 开始 ---*/
+.side {
+    font-size: 14px;
+    line-height: 55px;
+}
+
+.topBarRegister li{
+    float: left;
+}
+
+.topBarRegister li { 
+    height: 52px;
+    width: 100px;
+    line-height: 54px;
+    display: inline-block;
+    text-align: center;
+}
+
+.topBarRegister li:hover{
+    background-color: #f5f5f5;
+    border-bottom: 3px solid #bf3838;
+}
+
+/*-----注册账号-安卓充值结束-----*/
+/*--------------------------------------*/
+/*---网易游戏全目录topBarTitle---*/
+.topBarTitle {
+    position: relative;
+}
+
+.topBarTitle span {
+    display: inline-block;
+    text-align: center;
+    height: 52px;
+    width: 140px;
+}
+
+.topBarTitle .munu:hover {
+    background-color: #f5f5f5;
+    border-bottom: 3px solid #bf3838;
+}
+
+/*------------网易游戏全目录——小三角-------------*/
+.topBarTitle .sanjiao {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background:  url(../images/sprite-w_7fc7459.png) -102px -97px no-repeat;
+}
+/*++++++++网易游戏全目录——下拉匡开始++++++++++++*/
+.subnav {
+    z-index: 999;
+}
+
+.subnav {
+    position: absolute;
+    width: 1000px;
+    height: 480px;
+    z-index: 9999;
+     display: none;
+    font-size: 12px;
+    left: 50%;
+    margin-left: -800px;
+    background: rgba(255,255,255,.8);
+}
+/*-----网易游戏全目录——下拉匡——精灵图/new-----*/
+.subnav i {
+    width: 20px;
+    height: 10px;
+    margin-top: 8px;
+    float: right;
+    margin-right: 3px;
+    background:  url(../images/sprite-w_7fc7459.png) -97px -215px no-repeat;
+}
+/*-----网易游戏全目录——下拉匡——精灵图/hot-----*/
+.subnav .hot {
+    width: 20px;
+    height: 10px;
+    margin-top: 8px;
+    float: right;
+    margin-right: 3px;
+    background:  url(../images/sprite-w_7fc7459.png) -97px -152px no-repeat;
+}
+/*-----网易游戏全目录——下拉匡——精灵图/no-1-----*/
+.subnav .no-1 {
+    width: 20px;
+    height: 10px;
+    margin-top: 8px;
+    float: right;
+    margin-right: 3px;
+    background:  url(../images/sprite-w_7fc7459.png) -97px -277px no-repeat;
+}
+
+.subnav h2 {
+    padding-left: 20px;
+    height: 39px;
+    line-height: 39px;
+    font-size: 20px;
+    background-color: #f5f5f6;
+}
+
+.subnav .span2 {
+    width: 70px;
+    text-indent: -1px;
+    display: inline-block;
+    font-size: 16px;
+    color: #676767;
+}
+
+.subnav span {
+    width: 64px;
+    height: 26px;
+    display: block;
+    font-size: 16px;
+    color: #676767;
+}
+/*----------------------------*/
+.subnav .ul1-1,
+.ul1-2,
+.ul2-1,
+.ul3-1,
+.ul3-2,
+.ul3-3,
+.ul4-1 {
+    height: 437px;
+}
+
+.subnav .ul1-1,
+.ul2-1,
+.ul3-1,
+.ul4-1 li {
+    line-height: 26px;
+    margin-left: 20px;
+}
+
+/*--------      一一       --------*/
+
+.lis1 {
+    width: 246px;
+    height: 476px;
+    left: 0;
+    top: 0;
+    border-right: 1px solid #ececec;
+}
+.lis1 .ul1-1 {
+    width: 123px;
+}
+.subnav .ul1-2 {
+    line-height: 26px;
+    width: 103px;
+}
+
+/*-------     二二     -----*/
+.subnav .lis2 {
+    width: 152px;
+    height: 476px;
+    top: 0;
+    left: 247px;
+    float: left;
+    border-right: 1px solid #ececec;
+}
+
+/********    三三    ***********/
+.subnav .lis3 {
+    width: 452px;
+    height: 476px;
+    top: 0;
+    left: 399px;
+    float: left;
+}
+.subnav .ul3-1 {
+    margin-left: 20px;
+    width: 149px;
+}
+.subnav .ul3-2 {
+    width: 114px;
+    line-height: 26px;
+    padding-left: 5px;
+}
+.subnav .ul3-3 {
+    line-height: 26px;
+    padding-left: 5px;
+}
+
+.subnav .lis3 .genduo {
+    width: 30px;
+    height: 120px;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 20px;
+    text-align: center;
+    right: 0;
+    top: 190px;
+    color: #fff;
+    background-color: #bd3636;
+}
+
+.subnav .lis3 .genduo a {
+    color: #fff;
+}
+
+.subnav .lis3 .genduo a:hover {
+    width: 30px;
+    height: 120px;
+    display: block;
+    background-color:rgba(255,255,255,.3);
+}
+
+/*------   四四  --------*/
+
+.subnav .lis4 {
+    width: 148px;
+    height: 476px;
+    top: 0;
+    left: 851px;
+    float: left;
+    border-left: 1px solid #ececec;
+}
+
+.subnav .ul4-1 {
+    margin-top: 15px;
+}
+
+.ul4-1 .btn {
+    height: 20px;
+    font-size: 14px;
+}
+
+.ul4-1 .wyt {
+    float: left;
+    margin: 0;
+    left: 0;
+    margin-left: 0;
+    width: 22px;
+    height: 22px;
+    background: url("../images/sprite-w_7fc7459.png") 0px -336px no-repeat;
+}
+
+/*-- 网易游戏全目录结束 --*/
+/*--------------------------------------*/
+/*-- 领取网易严选宝箱开始 --*/
+.box {
+    width: 130px;
+    height: 55px;
+    float: left;
+    position: relative;
+     overflow: hidden; 
+    /* display: none; */
+}
+
+.box ul {
+    width: 130px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    list-style: none;
+}
+
+.box a {
+    display: block;
+    line-height: 55px;
+}
+
+.box li {
+    height: 55px;
+    text-align: center;
+}
+
+.box li:hover {
+    height: 52px;
+    background-color: #f5f5f5;
+    border-bottom: 3px solid #bf3838;
+}
+/*--------- 领取网易严选宝箱结束 --------*/
+/*-----------------------------头部结束------------------------------  */
+/*---------------页面背景图开始----------*/
+.bjt img {
+    position: absolute;
+    width: 100%;
+    height: 840px;
+    z-index: 5;
+    margin-top: -15px;
+}
+
+.backdrop {
+    position:relative;
+    height: 100%;
+    z-index: 55;
+    top: 0px;
+}
+
+.tx3 {
+    width: 262px;
+    height: 30px;
+    right: 42px;
+    top: 0px;
+}
+.tx3 li {
+    float: left; 
+    margin-left: 10px;
+    line-height: 30px;
+}
+/*----------============导航开始===========-------*/
+
+.nav {
+    height: 38px;
+    line-height: 34px;
+    top: 0px;
+    position:absolute;
+    font-size: 14px;
+    background-color: #f2f2f1;
+    border: 1px solid #c1c1c1;
+    border-radius: 8px 8px 0 0;
+    /* border-bottom: 0; */
+    z-index: 8; 
+}
+
+.nav li {
+    margin-top: 5px;
+    float: left;
+}
+ /* 右边 */
+.navL ul {
+     margin-left: 26px; 
+    
+}
+
+.navL li:hover{
+    height: 31px;
+    line-height: 32px;
+    border-radius: 8px 8px 0 0;
+    margin: 5px -1px -1px -1px;
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+    border-bottom: 2px solid #fff;
+    z-index: 88;   
+}
+
+.navL .yi,
+.er, 
+.san {
+    margin-top: 5px;
+    padding: 0 18px 0 18px ;
+}
+
+.navL .red {
+    color: #ee5f00;
+}
+
+.navL li i {
+    margin-top: 5px; 
+    display: inline-block; 
+    width: 1px;
+    height: 26px;
+    border-left: 1px solid #cca;
+}
+/*  左边  */
+.navR {
+    right: 0;
+}
+
+.navR li {
+    margin-right: 10px;
+}
+
+.navR .jiachu {
+    font-weight: bold;
+}
+
+.navR li s {
+    margin-top: 5px; 
+    display: inline-block; 
+    width: 1px;
+    height: 26px;
+    border-left: 1px solid #987198 ;
+}
+/*----------------------------  */
+.navBox .sss{
+    position: absolute;
+    top: 38px;
+    height: 39px;
+    width: 100%;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ff0;
+    border: 1px solid #000;
+}
+
+.navBox .sss img{
+    position: absolute;
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    margin-left:552px;
+    top:22px;
+}
+.navBox .sss .ssr{
+    position: absolute;
+    right: 18px;
+    top:10px;
+}
+.navBox .sss .ssr .si{
+    width: 230px;
+    height: 24px;
+    border: 1px #cccccc solid;
+    color: #999999;
+}
+.navBox .sss .ssr .sr{
+    width: 48px;
+    height: 26px;
+    border: 1px #cccccc solid;
+}
+.mid{
+    position: absolute;
+    width: 1000px;
+    height: 535px;
+    top: 115px;
+    border-bottom: 5px white solid;
+    background-color: #dfdfdf;
+}
+
+.mid .mid-left{
+    position: absolute;
+    width: 720px;
+    height: 423px;
+    top:80px;
+    background-color: #f2f2f2;
+}
+.mid .mid-left .mid-left-t{
+    width: 660px;
+    height: 282px;
+    margin-left: 32px;
+    background-color: #f2f2f2;
+    /*overflow: hidden;*/
+}
+.mid .mid-left .mid-left-t ul {
+    position: absolute;
+    top:10px;
+}
+.mid .mid-left .mid-left-t ul img{
+    width:65px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: -32px;
+}
+.mid .mid-left .mid-left-t ul li{
+    float: left;
+    display: block;
+    width:128px;
+    height:110px;
+    text-align: center;
+    /*border: 1px black solid;*/
+}
+.mid .mid-left .mid-left-t ul li:hover{
+    background-color: #E9EEF4;
+    /*border: 1px dotted #000000;*/
+}
+.mid .mid-left .mid-left-t ul li span:hover{
+    color: #1E50A2;
+}
+.mid .mid-left .mid-left-t ul li span{
+    display: block;
+    margin-top: 50px;
+    font-size: 16px;
+    color: #ff9900;
+}
+.mid .mid-left .mid-left-b{
+    width: 660px;
+    height: 140px;
+    margin-left: 32px;
+    /*background-color: #46BFDE;*/
+}
+.mid .mid-left .mid-left-b img{
+    width: 660px;
+    height: 120px;
+}
+.mid .mid-right {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 280px;
+    height: 423px;
+    border-left:5px #ffffff solid ;
+    background-color: #f2f2f2;
+}
+.mid .mid-right .mid-right-t{
+    height: 288px;
+    border-bottom: 1px solid #cccccc;
+}
+.mid .mid-right .mid-right-t ul {
+    /*margin-top: 20px;*/
+}
+.mid .mid-right .mid-right-t ul li{
+    float: left;
+    width: 100px;
+    height: 76px;
+    margin: 0 18px 3px 0;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.mid .mid-right .mid-right-t ul li a{
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #46BFDE;
+}
+.mid .mid-right .mid-right-t ul li p{
+    /*margin-left: 12px;*/
+}
+.mid .mid-right .mid-right-b{
+    position: absolute;
+    height: 134px;
+    width: 280px;
+    /*background-color: yellow;*/
+}
+.mid .mid-right .mid-right-b ul li img{
+    width: 20px;
+    height: 20px;
+    margin-top: 28px;
+    margin-left: 40px;
+}
+.mid .mid-right .mid-right-b ul li span{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.mid .mid-right .mid-right-b ul li span a{
+    color: #f7bd4b;
+}
+.mid .mid-right .mid-right-b .kefu{
+    font-size: 18px;
+    color: #333333;
+}
+.mid .mid-right .mid-right-b .ph{
+    display: inline-block;
+    margin-top: 22px;
+    margin-left: 70px;
+    font-size: 20px;
+    color: #46bfde;
+}
+.foot{
+    position: absolute;
+    top:535px;
+    width: 1000px;
+    height: 178px;
+    color: #333333;
+}
+.foot .foot-top ul li {
+    font-size: 14px;
+}
+.foot .foot-top ul li img{
+    margin-top: 46px;
+    margin-left: 55px;
+    width: 134px;
+    height: 30px;
+}
+.foot .foot-top .f1{
+    margin-left: 160px;
+}
+.foot .foot-top .f2{
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+.foot .foot-top .f3{
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 8px;
+}
+.foot .foot-top .f4{
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.foot .foot-top .f5{
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 8px;
+}
+.foot .foot-top .f6{
+     display: inline-block;
+     margin-left: 55px;
+    margin-top: 8px;
+ }
+
+
+
+
+/*----------============导航结束===========-------*/
+
+

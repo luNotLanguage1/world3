@@ -1,0 +1,6 @@
+/*首页易信客服推广*/
+.yixin {float: left; width: 230px;padding-top: 32px; padding-left: 10px;background: url(./images/shadow1.png) no-repeat left top; height: 200px;}
+.yixin-logo {width: 96px; height: 96px; margin: 0 auto;background: url(./images/yixin-logo.png) no-repeat;}
+.yixin h3 {margin:12px 0 6px;}
+.yixin-btn:link,.yixin-btn:visited{width: 146px;height: 25px;overflow: hidden;line-height: 20em;background: url(./images/yixin-btn.png) no-repeat; display: block; margin: 0 auto;}
+.yixin-btn:hover,.yixin-btn:active {background-position: 0 -25px;}

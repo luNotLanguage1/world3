@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>天下英雄榜</title>
+    <link rel="stylesheet" href="css/initialize.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="lib/jquery-1.12.4.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/tools.js"></script>
+    <script src="js/common.js"></script>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" class="icon">
+</head>
+
+<body>
+    <!--顶部页面的开始-->
+    <div class="Top-Section">
+        <!-- 版心-->
+        <div class="w clear">
+            <div id="Top">
+                <a href="../index/index.html" target="_blank" class="cLogo">天下3</a>
+                <div class="dLink">
+                    <a href="hero.html" target="_self">英雄榜首页</a>
+                    <i></i>
+                    <a href="../index/index.html" target="_blank">官网</a>
+                    <i></i>
+                    <a href="../kefu0.0/kefu.html" target="_blank">意见反馈</a>
+                </div>
+            </div>
+            <!--输入框的开始  -->
+            <div class="dInp_S">
+                <input type="text" title="请输入角色名，如果只记得部分关键字请按顺序用空格分开" value="请输入角色名" class="import" id="import" />
+                <input class="inpBut" type="button" value="" id="search_button" />
+            </div>
+            <!--输入框的结束  -->
+            <!-- 排行榜的开始-->
+            <div class="dList1" id="dList1">
+                <h3 class="top"><img src="imges/icon1.png" alt="" />排行榜</h3>
+                <ul>
+                    <li><a href="javascript:;">· 个人修为门派排行榜>></a>
+                        <ul class="hide">
+                            <li>荒火教</li>
+                            <li>天机营</li>
+                            <li>翎羽山庄</li>
+                            <li>魍魉</li>
+                            <li>太虚观</li>
+                            <li>云麓仙居</li>
+                            <li>冰心堂</li>
+                            <li>弈剑听雨阁</li>
+                            <li>鬼墨</li>
+                            <li>龙巫宫</li>
+                            <li>幽篁国</li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">· 装备评价门派排行榜>></a>
+                        <ul class="hide">
+                            <li>荒火教</li>
+                            <li>天机营</li>
+                            <li>翎羽山庄</li>
+                            <li>魍魉</li>
+                            <li>太虚观</li>
+                            <li>云麓仙居</li>
+                            <li>冰心堂</li>
+                            <li>弈剑听雨阁</li>
+                            <li>鬼墨</li>
+                            <li>龙巫宫</li>
+                            <li>幽篁国</li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">· 总修为门派排行榜>></a>
+                        <ul class="hide">
+                            <li>荒火教</li>
+                            <li>天机营</li>
+                            <li>翎羽山庄</li>
+                            <li>魍魉</li>
+                            <li>太虚观</li>
+                            <li>云麓仙居</li>
+                            <li>冰心堂</li>
+                            <li>弈剑听雨阁</li>
+                            <li>鬼墨</li>
+                            <li>龙巫宫</li>
+                            <li>幽篁国</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li><a href="xw.html" target="_blank">· 个人修为服务器排行榜</a></li>
+                    <li><a href="xw.html" target="_blank">· 装备评价服务器排行榜</a></li>
+                    <li><a href="xw.html" target="_blank">· 总修为服务器排行榜</a></li>
+                </ul>
+                <ul>
+                    <li><a href="xw.html" target="_blank">· 个人修为总排行榜</a></li>
+                    <li><a href="xw.html" target="_blank">· 装备评价总排行榜</a></li>
+                    <li><a href="xw.html" target="_blank">· 总修为排行榜</a></li>
+                </ul>
+            </div>
+            <!-- 排行榜的结束-->
+            <!-- 小工具的开始-->
+            <div class="gadget" id="gadget">
+                <h3 class="hide"><img src="imges/icon1.png" alt="" />小工具</h3>
+                <span><a href="javascript:;">· 玄修模拟器</a></span>
+            </div>
+            <!-- 小工具的结束-->
+        </div>
+
+    </div>
+    <!--顶部页面的结束-->
+    </div>
+    <div class="bLeft w">
+        <!--左边新闻的开始-->
+        <div class="left">
+            <ul class="ulTab" id="tab-1">
+                <li id="switch_0" class="current">英雄榜新闻</li>
+                <li id="switch_1">常见问题</li>
+                <li id="switch_2">常见名词</li>
+            </ul>
+            <div class="dTabcon" id="tabcon-1">
+                <ul id="news" class="ulTextlist current">
+                    <li><a href="javaScript:void(0)" class="ones">[2015-09-25]《天下3》英雄榜视觉优化说明</a></li>
+                    <li><a href="javaScript:void(0)">[2015-08-14]天下英雄榜测试版使用指引</a></li>
+                    <li><a href="javaScript:void(0)">[2015-08-14]《天下3》英雄榜开放人物特殊属性</a></li>
+                    <li><a href="javaScript:void(0)">[2015-08-14]《天下3》英雄榜孩子界面增加特殊属性</a></li>
+                    <li><a href="javaScript:void(0)">[2015-08-14]《天下3》英雄榜开放觉醒版块</a></li>
+                </ul>
+                <ul class="ulTextlist showt" id="faqs">
+                    <li><a id="f_5" href="javaScript:void(0)">1、英雄榜是什么？</a></li>
+                    <li><a id="f_6" href="javaScript:void(0)">2、我能在英雄榜上查找什么？</a></li>
+                    <li><a id="f_7" href="javaScript:void(0)">3、英雄榜推荐和支持的浏览器有哪些？</a></li>
+                    <li><a id="f_8" href="javaScript:void(0)">4、为什么我的角色信息不显示？</a></li>
+                    <li><a id="f_9" href="javaScript:void(0)">5、为什么我找不到自己的低级角色？</a></li>
+                </ul>
+                <ul class="ulTextlist showt" id="fats">
+                    <li><a id="f_10" href="javaScript:void(0)">1、什么是装备加护？</a></li>
+                    <li><a id="f_11" href="javaScript:void(0)">2、什么是翅膀？</a></li>
+                    <li><a id="f_12" href="javaScript:void(0)">3、什么是装备特技？</a></li>
+                </ul>
+            </div>
+
+            <div class="dAnswer" id="answers">
+                <!-- <div class="dNew cswers">
+                <!-- <div class="dNew current">
+                    <h3>
+                    </h3>
+
+                    <div class="art-con">
+                    </div>
+                </div> -->
+                <ul>
+                    <li class="current">
+                        <div class="dBox" tabindex="0">
+                            <p class="pTitle">
+                                《天下3》英雄榜视觉优化说明</p>
+                            <p>各位亲爱的玩家：</p>
+                            <p>为了让大家在使用英雄榜的过程中更加的舒适，我们对英雄榜的视觉进行了优化，此优化不涉及功能调整，不影响原有操作逻辑。</p>
+                            <p>未来我们将开发更多的功能供大家使用，谢谢！</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dBox" tabindex="1">
+                            <p class="pTitle">天下英雄榜测试版使用指引</p>
+                            <p>在天下英雄榜首页的搜索框，输入你要查找的角色名字，点击搜索按钮，就能展示所有匹配的角色。同时也可以通过右侧的排行榜查看各位高手的信息哦！</p>
+                            <p>根据搜索出来的服务器、等级、门派、势力等信息，筛选出你所需要的角色。点击角色名字进入角色信息展示。</p>
+                            <p>　　更多详情请参阅： http://tx3.163.com/news/2010/8/12/4007_221002.html</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dBox" tabindex="2">
+                            <p class="pTitle">《天下3》英雄榜开放人物特殊属性</p>
+                            <p>本次更新，天下英雄榜测试版将在人物属性面板增添人物特殊属性，其中包含诛心、御心、万钧和铁壁属性。</p>
+                            <p>天下英雄榜更多功能持续开发中！</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dBox" tabindex="3">
+                            <p class="pTitle">《天下3》英雄榜孩子界面增加特殊属性</p>
+                            <p>本次更新，天下英雄榜测试版将在孩子界面增添诛心、万钧特殊属性，修正御心数值。</p>
+                            <p>天下英雄榜更多功能持续开发中！</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dBox" tabindex="4">
+                            <p class="pTitle">《天下3》英雄榜开放觉醒版块</p>
+                            <p>本次更新，天下英雄榜测试版将增添觉醒版块，开放觉醒基本信息、觉醒境界技能信息展示功能。</p>
+                            <p>　注：新版块内容需要玩家重新登录游戏下线后才能获取相关信息。</p>
+                            <p>天下英雄榜更多功能持续开发中！</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dBox" tabindex="5">
+                            <p class="pTitle">英雄榜是什么？</p>
+                            <p>英雄榜是《天下3》游戏信息查询工具，定时从游戏服务器提取数据，通过网页呈现给用户。英雄榜所有数据来源于真实游戏服务器，展示《天下3》游戏中的全部角色装备信息、角色技能、属性排名等，是权威的官方数据。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dBox" tabindex="6">
+                            <p class="pTitle">
+                                我能在英雄榜上查找什么？
+                            </p>
+
+                            <p>
+                                在搜索栏输入角色昵称搜索，并在搜索结果中选择进入角色展示页，可查询到角色的装备、技能、属性、排名信息。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dBox" tabindex="7">
+                            <p class="pTitle">
+                                英雄榜推荐和支持的浏览器有哪些？
+                            </p>
+
+                            <p>
+                                英雄榜目前支持几乎所有的主流浏览器，包括：
+                            </p>
+
+                            <p>
+                                Firefox3.0+
+                            </p>
+
+                            <p>
+                                IE6, IE7, IE8
+                            </p>
+
+                            <p>
+                                Google-Chrome
+                            </p>
+
+                            <p>
+                                Opera
+                            </p>
+
+                            <p>
+                                Safari
+                            </p>
+
+                            <p>
+                                为了能更流畅的体验英雄榜，推荐你使用Firefox、Chrome以及IE7以上版本的浏览器。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dBox" tabindex="8">
+                            <p class="pTitle">
+                                为什么我的角色信息不显示？
+                            </p>
+
+                            <p>
+                                英雄榜只显示活跃角色的信息，只有20级及以上的角色才会显示角色属性表。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dBox" tabindex="9">
+                            <p class="pTitle">
+                                为什么我找不到自己的低级角色？
+                            </p>
+
+                            <p>
+                                只有20级以上角色才会进入英雄榜，包括角色信息及角色名称检索结果。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dBox" tabindex="10">
+                            <p class="pTitle">
+                                什么是装备加护？
+                            </p>
+
+                            <p>
+                                加护是一种通过对装备灌输溟钻，来提升装备固有属性的强力手段。
+                            </p>
+
+                            <p>
+                                每次成功的加护后，装备附加的属性（如防御力、回避力、力、魂等属性）都会同时增加，装备的加护值也增加1。加护成功后装备提升的数值，是按照一定比例放大原来的属性数值，所以附加值越高的属性，加护后提升的属性值也越高。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dBox" tabindex="11">
+                            <p class="pTitle">
+                                什么是翅膀？
+                            </p>
+
+                            <p>
+                                当你的装备和武器的加护值达到一定数目后，你的装备武器可就达到非同一般之境界了哦，由于吸收了溟钻的威力，它会绽放出耀眼的光华。
+                            </p>
+
+                            <p>
+                                当普通防具和武器加钻到10可以有淡淡的白光。寒光微绽，静滞也自有锋芒。
+                            </p>
+
+                            <p>
+                                当全身装备加护总值达到144的时候出现第一级的整体特效，替代掉原来的白光。绽放光华的幽蓝光翼，犹如那薄如蝉翼的未来；在一招一式中，羽翼流转，如梦似幻，恍如仙君下凡，也就是玩家口中所称的“翅膀”。
+                            </p>
+
+                            <p>
+                                当全身装备加护总值达到234的时候出现第二级的整体特效。浑身上下被红色的火焰环绕宛如凤凰涅槃，啸舞九天，亦即是玩家亲昵称为“红烧鸡翅”的炫丽特效。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dBox" tabindex="12">
+                            <p class="pTitle">
+                                什么是装备特技？
+                            </p>
+
+                            <p>
+                                装备特技是指装备某些套装两件以上后所拥有的特殊的技能和额外增益，例如我们熟悉的60套装，70套装以及战场套装，它们都具有各自独特的装备特技。基本上来说，只要是成套的装备，都会拥有相应的装备特技可以使用（不一定是仅限于套装装备，也有可能是成套的首饰，例如桃溪副本投放的戒指田园之界和项链桑竹之属，也具有相应的装备特技）。这些特技跟我们的门派技能一样，也分为主动技能和被动技能两种，对玩家进行各种方面的加强与增益。
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <!--左边新闻的结束-->
+        <!--右边轮播图的开始-->
+        <div class="right" id="box">
+            <div class="screen">
+                <ul>
+                    <li><img src="imges/1.jpg" /></li>
+                    <li><img src="imges/2.jpg" /></li>
+                    <li><img src="imges/3.jpg" /></li>
+                    <li><img src="imges/4.jpg" /></li>
+                </ul>
+                <ol>
+                </ol>
+            </div>
+        </div>
+        <!--右边轮播图的结束-->
+        <!--右边新闻的开始-->
+        <div class="right-news">
+            <h3>天下热闻</h3>
+
+            <div class="hotNews">
+                <ul>
+                    <li><a href="javascript:;">同人绘画：决战竞技赛，且看谁与争锋</a></li>
+                    <li><a href="javascript:;">安利一下新的夫妻表情，超棒的挂机姿势</a></li>
+                    <li><a href="javascript:;">隐秘幽华，不是魍魉小姐姐也能帅裂苍穹</a></li>
+                    <li><a href="javascript:;">静湖微澜，执迷那一抹幽蓝无法自拔</a></li>
+                    <li><a href="javascript:;">牛图：时间贵宾，原来还真的有</a></li>
+                </ul>
+                <div class="dates">
+                    <ul>
+                        <li>[07-17]</li>
+                        <li>[07-17]</li>
+                        <li>[07-17]</li>
+                        <li>[07-16]</li>
+                        <li>[07-16]</li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+        <!--右边新闻的结束-->
+        <!--第三方登录的开始-->
+        <div class="bottom">
+            <div class="other-login">
+                <ul class="ul1">
+                    <li>分享到：</li>
+                    <li title="分享到微信">
+                        <a href="javaScript:void(0)">
+                        <i class="iconfont">&#xe605;</i>
+                        <span>微信</span>
+                    </a>
+
+                        <div></div>
+                    </li>
+                    <li title="分享到易信">
+                        <a href="javaScript:void(0)">
+                        <i class="iconfont">&#xe604;
+                        </i>
+                        <span>易信</span>
+                    </a>
+                    </li>
+                    <li title="分享到新浪微博">
+                        <a href="javaScript:void(0)">
+                        <i class="iconfont">&#xe65c;</i>
+                        <span>新浪微博</span>
+                    </a>
+                    </li>
+                    <li title="分享到QQ空间">
+                        <a href="javaScript:void(0)">
+                        <i class="iconfont">&#xe60d;</i>
+                        <span>QQ空间</span>
+                    </a>
+                    </li>
+                    <li title="分享到人人网">
+                        <a href="javaScript:void(0)">
+                        <i class="iconfont">&#xe608;</i>
+                        <span>人人网</span>
+                    </a>
+                    </li>
+                    <li class="last">
+                        <a href="javaScript:void(0)">
+                        <i class="iconfont">&#xe701;</i>
+                        <span>更多</span>
+                    </a>
+                        <ul class="link">
+                            <li title="分享到腾讯微博" class="one">腾讯微博</li>
+                            <li title="分享到QQ好友" class="two">QQ好友</li>
+                            <li title="分享到豆瓣" class="three">豆瓣</li>
+                            <li title="分享到百度贴吧" class="four">百度贴吧</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--第三方登录的结束-->
+            <!--简介的开始-->
+            <div class="massage">
+                <div class="part">
+                    <div class="logo163">
+                        <a href="javascript:;">
+                        <img src="imges/netease.png" alt=""/>
+                        <img src="imges/nie.png" alt=""/>
+                    </a>
+                    </div>
+                    <div class="nav">
+                        <span>
+                    <a href="javascript:;">公司简介</a>
+                    <i>-</i>
+                    <a href="javascript:;">客户服务</a>
+                    <i>-</i>
+                    <a href="javascript:;">相关法律</a>
+                    <i>-</i>
+                    <a href="javascript:;">网易游戏</a>
+                    <i>-</i>
+                    <a href="javascript:;">联系我们</a>
+                    <i>-</i>
+                    <a href="javascript:;">商务合作</a>
+                    <i>-</i>
+                    <a href="javascript:;">加入我们</a>
+                </span>
+                        <br/>
+                        <span>
+                    <i>网易公司版权所有 ©1997-2017</i>
+                    <a href="javascript:;">中国网络游戏版权保护联盟举报中心</a>
+                </span>
+                    </div>
+                </div>
+            </div>
+            <!--简介的结束-->
+        </div>
+    </div>
+
+</body>
+
+</html>

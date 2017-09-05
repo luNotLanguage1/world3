@@ -1,0 +1,136 @@
+/*
+* @Author: Jeol
+* @Date:   2017-05-14 09:17:31
+* @Last Modified by:   Jeol
+* @Last Modified time: 2017-07-14 10:00:00
+*/
+/*css ��ʼ�� */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;  /*���Ԫ�ص�����߾�*/
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;  /*���滷����*/
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/*ȥ��ԭ��ʽ�е�С�ڵ�*/
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "miscrosoft yahei";  /*������Զ�ʶ��*/
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+/*�����־�����ʾ*/
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+/**/
+textarea {
+    resize: none;  /*�����������϶�*/
+}
+
+/*��ֹ�϶�*/
+img {
+    border: 0;
+    vertical-align: middle; /*  ȥ��ͼƬ�ײ�Ĭ�ϵ�3���ؿհ׷�϶*/
+}
+
+table {
+    border-collapse: collapse; /*�ϲ�������*/
+}
+
+body {
+    font: 12px/150% "microsoft yahei", Arial, Verdana, "\5b8b\4f53"; /*unitedCode��д���������д��*/
+    color: #666; /*150%���ڵ�ǰ����ߴ�İٷֱ��м��*/
+    background: #F6F6F6;
+}
+
+.clearfix:before, .clearfix:after {
+    /*���������������׼��д��*/
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/  /*����IE6�µ�д��*/
+}
+
+a {
+    color: #666;   /*a ��ǩ�ǲ��̳���ɫ ��*/
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {  /*һ������װ������*/
+    font-style: normal;  /*ȥ��ԭ�е���ʽ*/
+    text-decoration: none;  /*ȥ���»��߻���ɾ����*/
+}
+
+.col-red {
+    color: #F10215 !important;/*������ɫ��*/
+}
+
+/*������*/
+.w {
+    /*���� ��ȡ */
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+.pr{
+    position: relative;
+}
+.pa{
+    position: absolute;
+}
+/*css��ʼ�����*/

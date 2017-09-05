@@ -1,0 +1,59 @@
+/*初始化代码*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, em, img, q, dl, dt, dd, ol, ul, li, label, table, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+ol, ul, li {
+    list-style: none
+}
+
+i, em {
+    font-style: normal
+}
+
+img {
+    vertical-align: top
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+
+body {
+    color: #000;
+    font: 12px/170% simsun, arial, "Lucida Grande", "Lucida Sans Unicode";
+    position: relative
+}
+
+a {
+    text-decoration: none;
+    outline: 0
+}
+
+a:hover {
+    color: #e1b858
+}
+
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: block;
+    visibility: hidden;
+    height: 0
+}
+
+.clearfix {
+    zoom: 1
+}

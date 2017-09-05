@@ -1,0 +1,560 @@
+﻿/*������ʽ*/
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "΢���ź�";
+    background-color: #eef1f8;
+}
+a {
+    text-decoration: none;
+    color: #333;
+
+}
+input {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+ul,ol {
+    list-style: none;
+    color: #666;
+}
+
+.w {
+    /*����*/
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.floatL {
+    /*�󸡶�*/
+    float: left;
+}
+
+.floatR {
+    /*�Ҹ���*/
+    float:right;
+}
+
+/*top��ʽ��ʼ*/
+
+#top {
+    width: 100%;
+    height: 55px;
+    background-color: #fbfbfb;
+}
+#top .topNav {
+    width: 995px;
+    height: 55px;
+    margin: 0 auto;
+}
+.topGG{
+    display: inline-block; 
+    height: 54px;   
+    position: relative;
+}
+#top ul {
+    font-size: 13px;
+    line-height: 55px;
+    text-align: center;
+}
+#top ul li {
+    float: left;
+    /*margin-left: 26px;*/
+    width: 68px;
+    height: 55px;
+
+}
+#top ul li:hover{
+    /* background-color: #f6f6f6;
+    border-bottom: 3px #bc2e2e solid; */
+    background: url("../img/topBGI.png")
+
+}
+#top ul .topLiF {
+    margin-left: 0;
+}
+#top ul .redLi {
+    color: #bc2e2e;
+}
+#top ul .li3 {
+    width: 106px;
+}
+#top ul .li4 {
+    width: 110px;
+    position: relative;
+    overflow: hidden;
+
+}
+#topTxt{
+    position: absolute;
+    margin-left: 5px;
+}
+/*top����*/
+/*main��ʼ*/
+#main {
+    width: 100%;
+    background-image: url(../img/BigBg.jpg);
+    background-size: 1349px;
+}
+#main .w {
+    height: 965px;
+    position: relative;
+
+}
+.tianxia {
+    position: absolute;
+    left:500px;
+    top: -42px;
+}
+.tianxia img{
+    width: 239px;
+}
+.gw {
+    position: absolute;
+    line-height: 55px;
+    text-align: center;
+    font-size: 16px;
+    right: -42px;
+    top: 23px;
+}
+
+.gw li {
+    float: left;
+    width: 55px;
+    height: 55px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    margin-right: 12px;
+
+
+}
+.gw li:hover {
+    border-color: #bc2e2e ;
+}
+.gw li:hover a {
+    color: #bc2e2e;
+}
+#video {
+    position: absolute;
+    left: 477px;
+    top: 229px;
+
+}
+#video i {
+    vertical-align: top;
+    display: inline-block;
+    width: 84px;
+    height: 49px;
+    background-image: url(../img/left_yp.png);
+    /* position: absolute; */
+}
+#video .viI2 {
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/video.png);
+}
+#video .viI3 {
+    background-image: url(../img/right_yp.png);
+    margin-top: 5px;
+}
+#video .viI1 {
+    margin-top: 5px;
+}
+.down {
+    width: 256px;
+    height: 75px;
+    position: absolute;
+    left:479px;
+    top: 350px;
+}
+#mainNav {
+    height: 317px;
+    width: 1200px;
+    background-color: rgba(255,255,255,.5);
+    position: absolute;
+    bottom: 135px;
+    padding-top: 25px;
+}
+#mainNav .login {
+    width: 230px;
+    height: 300px;
+    margin-left: 35px;
+    float: left;
+
+}
+#mainNav .login .one {
+    width: 210px;
+    height: 52px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #9d1c0a;
+    line-height: 52px;
+}
+#mainNav .login .one i {
+    display: block;
+    width: 52px;
+    height: 52px;
+    background-image: url(../img/index_z_9642659.png);
+    background-position: -448px -268px;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+#mainNav .login .one span{
+    font-size: 30px;
+}
+#mainNav .login .inp1,.inp2{
+    background-color: #e9e4e6;
+    width: 218px;
+    height: 42px;
+    border: 1px solid #9d1c0a;
+    padding-left: 10px;
+}
+#mainNav .login .inp1 {
+    margin-top: 22px;
+    margin-bottom: 14px;
+}
+#mainNav .login input {
+    width: 218px;
+    height: 42px;
+    font-size: 14px;
+}
+#mainNav .login .xiexi {
+    width: 230px;
+    font-size: 12px;
+    color: #999;
+    line-height: 21px;
+    margin-top: 11px;
+}
+#mainNav .login .xiexi a{
+    color: #999;
+}
+#mainNav .login .xiexi a:hover{
+    color: #555;
+}
+#mainNav .login .loginBtn {
+    width: 230px;
+    height: 55px;
+    display: block;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    line-height: 55px;
+    background-image: url("../img/btn1.png"); 
+    
+    background-color: #fd5712;margin-top: 12px;  
+}
+#mainNav .login .loginBtn:hover {
+   
+    
+    background-image: url("../img/btn2.png"); 
+    
+    background-color: #b00601;
+
+}
+
+#mainNav .zhuce {
+    width: 280px;
+    height: 300px;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-left: 30px;
+
+
+}
+#mainNav .zhuce .two {
+    /*width: 250px;*/
+    height: 52px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #9d1c0a;
+    line-height: 52px;
+}
+#mainNav .zhuce .two i {
+    width: 50px;
+    height: 52px;
+    margin-top: 2px;
+    margin-right: 10px;
+    background: url("../img/index_z_9642659.png") -398px -268px;
+}
+#mainNav .zhuce .zclb {
+    width: 205px;
+    height: 180px;
+    position: relative;
+    left: -18px;
+
+    overflow: hidden;
+}
+#mainNav .zhuce .zclb #zcLB {
+    width: 820px;
+    position: absolute;
+
+}
+#mainNav .zhuce .zclb #zcLB li {
+    float: left;
+}
+#mainNav .zhuce .zclb ol {
+    position: absolute;
+    left: 54px;
+    bottom: 0px;
+}
+#mainNav .zhuce .zclb ol li {
+    width: 24px;
+    height: 5px;
+    background-color: #ccc;
+    float: left;
+    margin-right: 10px;
+}
+#mainNav .zhuce .zclb ol li:hover {
+    cursor: pointer;
+}
+#mainNav .zhuce .zclb ol  .olred {
+    background-color: #b00601;
+}
+#mainNav .zhuce .zhuceBtn {
+    margin: 0 auto;
+    width: 230px;
+    height: 55px;
+    display: block;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    line-height: 55px;
+    background-image: url("../img/btn1.png"); 
+    
+   
+    background-color: #fd5712;margin-top: 12px;
+}
+#mainNav .zhuce .zhuceBtn:hover {
+   
+    
+    background-image: url("../img/btn2.png"); 
+    background-color: #b00601;
+
+}
+
+#mainNav .jsDown {
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin-left: 30px;
+    /*background-image: url(../img/down_06fffb9.png);*/
+    position: relative;
+
+}
+#mainNav .jsDown .jsBj{
+    background-image: url(../img/down_06fffb9.png);
+    height: 245px;
+}
+#mainNav .jsDown .three{
+    height: 52px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #9d1c0a;
+    line-height: 52px;
+}
+#mainNav .jsDown .three i {
+    width: 50px;
+    height: 52px;
+    margin-top: 2px;
+    margin-right: 10px;
+    background: url("../img/index_z_9642659.png") -346px -268px;
+}
+#mainNav .jsDown .jsDownBtn{
+    width: 230px;
+    height: 55px;
+    display: block;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    line-height: 55px;
+    background-image: url("../img/btn1.png"); 
+    
+    background-color: #fd5712;margin-top: 12px;
+    position: absolute;
+    bottom:0px;
+    left: 50%;
+    margin-left: -115px;
+}
+#mainNav .jsDown .jsDownBtn:hover{
+   
+    background-image: url("../img/btn2.png"); 
+    background-color: #b00601;
+}
+#mainNav .present{
+    width: 305px;
+    height: 300px;
+    float: left;
+    margin-left: 30px;
+    position: relative;
+
+}
+
+#mainNav .present .four{
+
+    height: 235px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #9d1c0a;
+    line-height: 30px;
+    background-image: url("../img/jp_a218002.png");
+    background-repeat: no-repeat;
+    background-position: 40px 0;
+}
+#mainNav .present .four i {
+    width: 50px;
+    height: 52px;
+    margin-top: 2px;
+    margin-right: 10px;
+    background: url("../img/index_z_9642659.png") -499px -268px;
+}
+#mainNav .present .four p {
+    width: 245px;
+}
+#mainNav .present .preBtn {
+    width: 230px;
+    height: 55px;
+    display: block;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    line-height: 55px;
+    background-image: url("../img/btn1.png");
+    background-color: #fd5712;margin-top: 12px;
+    position: absolute;
+    bottom:0px;
+    left: 50%;
+    margin-left: -115px
+}
+#mainNav .present .preBtn:hover{
+    background-image: url("../img/btn2.png"); 
+    background-color: #b00601;
+
+}
+/*main����*/
+/*���ֲ�����ʼ*/
+#mainLB {
+    height: 350px;
+    margin-top:-110px;
+    position: relative;
+}
+#lbBox {
+    width: 1200px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+
+}
+#lbBox ul {
+    width: 4800px;
+    position: absolute;
+}
+#lbBox ul li {
+    float: left;
+}
+#lbBox ol {
+    position: absolute;
+    left:50%;
+    margin-left: -90px;
+    bottom: 25px;
+}
+#lbBox ol li{
+    width: 50px;
+    height: 6px;
+    float: left;
+    margin-left: 10px;
+    background-color: #fff;
+    
+}
+#lbBox ol  .olred {
+    background-color: #b00601;
+}
+.lbNav {
+    height: 75px;
+    background-color: rgba(255,255,255,.6);
+    line-height: 75px;
+    position: absolute;
+}
+.lbNav li {
+    float: left;
+    margin-right: 60px;
+    font-size: 18px;
+}
+.lbNav ul {
+    margin-left: 30px;
+}
+.lbNav li:hover{
+    font-weight: 700;
+}
+.lbNav li:hover a {
+    color:#ca7b1d;
+
+}
+/*���ֲ��������*/
+/*�ٷ����忪ʼ*/
+.official {
+    margin-top: 30px;
+    height: 230px;
+    background-color: #e2e2e2;
+}
+.official .off1{
+    width: 400px;
+    height: 230px;
+    position: relative;
+}
+.official .off1 i {
+    margin-top: 43px;
+    margin-left: 8px;
+    width: 150px;
+    height: 224px;
+    background:url("../img/index_z_9642659.png")-7px -309px;
+}
+.official .off1 div{
+    width: 220px;
+    margin-top: 40px;
+
+}
+.official .off1 div h2 {
+    color: #9d1c0a;
+}
+.official .off1 div p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.official .off1 div a {
+    width: 98px;
+    height: 28px;
+    margin-top: 15px;
+    display: block;
+    border: 1px solid #ca7b1d;
+    color: #ca7b1d;
+    line-height: 28px;
+    text-align: center;
+
+}
+.official .off1 div a:hover{
+    background-color:#ca7b1d ;
+    color: #fff;
+}
+.official .off1 span {
+    background: url("../img/index_z_9642659.png")no-repeat -233px 0px;
+    width: 20px;
+    height: 230px;
+    position: absolute;
+    right: -9px;
+    top: 0;
+    display: block;
+}
+.official .off1 .offimg2 {
+
+     background:url("../img/index_z_9642659.png")-427px -40px;
+ }
+.official .off1 .offimg3 {
+
+    background:url("../img/index_z_9642659.png")-253px -44px;
+}
+
+/*�ٷ��������*/

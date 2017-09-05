@@ -1,0 +1,50 @@
+body,p,h1,h2,h3,h4,h5,h6,span,ul,li,img,a,input,ol {
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight:normal;
+}
+a {
+	color:#000;
+	text-decoration:none;
+}
+ul,ol {
+	list-style:none;
+}
+li {
+	list-style:none;
+}
+input {
+	border: 0 none;
+	outline: 0;
+}
+img {
+	border: 0;
+	vertical-align:middle;
+}
+body {
+	font:12px/150% "微软雅黑";
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix::before, .clearfix::after {
+	content:"";
+	display: table;
+}
+.clearfix::after {
+	clear:both;
+}
+.clearfix {
+	*zoom:1;
+}
+s,
+i,
+em {
+	font-style: normal;
+	text-decoration: none;
+}

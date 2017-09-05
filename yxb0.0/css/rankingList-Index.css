@@ -1,0 +1,400 @@
+/*背景图片开始*/
+body {
+    background: url("../imges/bgc.jpg") no-repeat center 0;
+}
+.Top-Section {
+    height: 240px;
+}
+.news {
+    width: 81px;
+    height: 506px;
+    position: fixed;
+    right: 0px;
+    top: 76px; 
+}
+.news span {
+    position: absolute;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    height: 400px;
+    width: 1px;
+    left: 35px;
+    top: 80px;
+}
+.news button {
+    width: 74px;
+    height: 36px;
+    position: absolute;
+    top: 450px;
+    right: 7px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 800;
+    opacity: 0;
+}
+/*背景图片结束*/
+/*顶部页面的开始*/
+a.cLogo {
+    display: block;
+    height: 140px;
+    width: 200px;
+    font-size: 0px;
+}
+.clear {
+    position: relative;
+}
+.dLink {
+    width: 220px;
+    padding: 38px 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.dLink a {
+    font-weight: bold;
+    color: #fff;
+}
+
+.dLink a:hover {
+    color: #f2531c;
+    text-decoration: underline;
+}
+
+.dLink i {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+.dInp_S {
+    width: 455px;
+    height: 42px;
+    position: relative;
+    top: 0px;
+    left: 357px;
+}
+.dInp_S .import {
+    width: 372px;
+    height: 42px;
+    color: #b2b2b2;
+    padding: 0 12px;
+    font-size: 12px;
+    float: left;
+
+}
+.dInp_S .inpBut {
+    float: right;
+    height: 42px;
+    width: 51px;
+    background-color: transparent;
+
+}
+/*排行榜与小工具开始*/
+.DropMenu {
+    width: 459px;
+    height: 14px;
+    margin-top: 15px;
+    position: relative;
+    left: 362px;
+    padding-left: 140px;
+}
+.DropMenu>ul>li {
+    float: left;
+    margin-right: 23px;
+}
+.DropMenu>ul>li>a {
+    display: block;
+    width: 80px;
+    color: #2e2f2f;
+    font-size: 14px;
+    font-weight: 800;
+    background: url("../imges/ranking.png") no-repeat 60px 3px;
+}
+.dList1 {
+    position: absolute;
+    z-index: 9;
+    opacity: .9;
+    display: none; 
+}
+.dList1>li {
+    line-height: 24px;
+    width: 155px;
+    padding-left: 5px;
+    background-color: #575758;
+}
+.dList1 a {
+    font-size: 12px;
+    font-family:"宋体";
+}
+.dList1 li:hover a {
+    color: #f9fbfd;
+}
+.dList1>li>ul {
+    position: absolute;
+    line-height: 24px;
+    width: 155px;
+    background-color: #575758;
+    left: 160px;
+    top: 5px;
+    opacity: .9;
+    display: none; 
+}
+.dList1>li>ul>li {
+    padding-left: 5px;
+}
+/*排行榜与小工具结束*/
+/*顶部页面的结束*/
+/*排行版门派查询开始*/
+.dBox {
+    width: 903px;
+    background-color: #3a434a;
+    margin: 40px auto 0;
+}
+.dBox .result_title{
+    width: 873px;
+    height: 46px;
+    margin: 0 auto;
+    padding-top: 14px;
+    border-bottom: 1px solid #5b6772;
+}
+.dBox .result_title h2 {
+    line-height: 46px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.dBox .dBox-2 {
+    width: 880px;
+    height: 700px;
+    margin: 8px auto 0;
+    padding-left: 13px;
+    cursor: pointer;
+    background:url("../imges/innerBoxFoot_674f10f.jpg") no-repeat 0 bottom;
+}
+.dBox-2 .down .txt .sel {
+    width: 90px;
+    height: 23px;
+}
+.dBox-2 .down {
+     position: relative; 
+     z-index: 0;
+    left: 10px;
+    padding-left: 5px;
+    display: inline-block;
+    font-family:"宋体";
+}
+.dBox-2 span>ul {
+    position: absolute;
+    width: 90px;
+    font-family:"宋体";
+    color: #000000;
+    left: 0px;
+    background-color: #FFFFFF;
+    display: none;
+}
+.xiuwei>ul>li {
+    cursor: pointer;
+    padding-left: 5px;
+}
+.dBox-2 .xiuwei {
+    position: relative;
+    display: inline-block;
+    width: 63px;
+    padding-left: 6px;
+    height: 23px;
+    line-height: 23px;
+    color: #000;
+    background-color: #FFFFFF;
+    margin-right: 5px;
+}
+
+.dBox-2 .txt {
+    font-size: 12px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+
+.dBox-2 i {
+    position: relative;
+    left: -5px;
+    top: 8px;
+    display: inline-block;
+    width: 22px;
+    height: 23px;
+    cursor: pointer;
+    background: url("../imges/down-btn_103db18.png") 0 0;
+}
+.dBox-2 .down:hover i {
+    background: url("../imges/down-btn_103db18.png") 0 -30px;
+}
+
+.dBox-2 .btn {
+    position: relative;
+    top: 2px;
+    left: -10px;
+    width: 40px;
+    height: 23px;
+    color: #FFFFFF;
+    background-color: #ff7d01;
+    margin-left: 32px;
+}
+/*排行榜门派查询结束*/
+/*表格开始*/
+.dBox-2 #table{
+    margin-top: 30px;
+}
+.dBox-2 #table tr {
+    border: 1px solid #000;
+}
+.dBox-2 #table th,
+.dBox-2 #table td {
+    height: 25px;
+    width: 84px;
+    font-size: 12px;
+    font-family:"宋体";
+    text-align: center;
+    font-weight: 100;
+    border: 1px solid #000;
+}
+.dBox-2 #table th {
+    background-color: #171717;
+    color: #ff7d00;
+}
+/*表格结束*/
+/*换页开始  */
+.dPages {
+    line-height: 43px;
+    width: 186px;
+    margin: 0 auto;
+}
+.dPages li {
+    float: left;
+}
+.dPages li.num {
+    line-height: 22px;
+    padding-left: 9px; 
+    padding-right: 9px; 
+    margin-right: 3px;
+    margin-top: 10px;
+    color: #ec5622;
+    background-color: #3a434a;
+}
+.dPages li a {
+    display: inline-block;
+    line-height: 22px;
+    padding-left: 9px; 
+    padding-right: 9px; 
+    margin-right: 3px;
+    margin-top: 10px;
+    background-color:#171717; 
+}
+.dPages a:hover {
+    color: #fff;
+    background-color: #ff7d00;
+}    
+/*换页结束  */
+/* 底部开始 */
+.footer {
+    height: 240px;
+    position: relative;
+    top: 32px;
+    font-family: "宋体";
+}
+.footer .copy {
+    height: 20px;
+    margin-top: 65px;
+}
+.footer .copy>p {   
+     text-align: center; 
+}
+.footer .login {
+    height: 33px;
+    line-height: 33px;
+    width: 470px;
+    margin: 20px auto 0;
+}
+.login li {
+    float: left;
+    font-size: 14px;
+    font-family: "宋体";
+    color: #777777;
+    padding-right: 5px;
+}
+.login li>a {
+    position: relative;
+    top: -2px;
+    color: #777777;
+}
+.login li>i {
+    position: relative;
+    font-size: 18px;
+    left: 7px;
+    color: #040404;
+    cursor: pointer;
+}
+.login>ul>li:hover i {
+    color: #ff7d00;
+}
+.login li .link {
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    top: 15px;
+    left: 25px;
+    padding: 2px;
+    background-color: #FFFFFF;
+    display: none;
+    z-index: 5;
+}
+.login .last {
+    position: relative;
+}
+.login .last .link li {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    padding-left: 30px;
+    float: left;
+    cursor: pointer;
+}
+.login .last .link .one {
+    background: url("../imges/icon.v5.png") no-repeat -146px -45px;
+}
+.login .last .link .two {
+    background: url("../imges/icon.v5.png") no-repeat -146px -470px;
+}
+.login .last .link .three {
+    background: url("../imges/icon.v5.png") no-repeat -146px -245px;
+}
+.login .last .link .four {
+    background: url("../imges/icon.v5.png") no-repeat -146px -445px;
+}
+.part {
+    width: 840px;
+    height: 72px;
+    margin: 0 auto;
+}
+.part .logo163 {
+    width: 258px;
+    height: 72px;
+    line-height: 72px;
+    float: left;
+
+}
+.part .nav {
+    float: left;
+    width: 450px;
+    height: 48px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+.part .nav a:hover {
+    color: #ff7d00;
+    text-decoration: underline;
+}
+/* 底部结束 */

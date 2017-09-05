@@ -1,0 +1,493 @@
+/*背景ʼ*/
+body {
+     background: url("../imges/mainbg.jpg") no-repeat center 0; 
+}
+.Top-Section {
+    height: 384px;
+}
+/*背景*/
+/*天下3logo的开始*/
+a.cLogo {
+    display: block;
+    height: 140px;
+    width: 200px;
+    font-size: 0px;
+}
+/*排行榜的开始*/
+.clear {
+    position: relative;
+}
+.dLink {
+    width: 220px;
+    padding: 38px 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.dLink a {
+    font-weight: bold;
+    color: #fff;
+}
+
+.dLink a:hover {
+    color: #f2531c;
+    text-decoration: underline;
+}
+
+.dLink i {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+/*������ѯ�Ŀ�ʼ*/
+.dInp_S {
+    width: 455px;
+    height: 42px;
+    position: relative;
+    top: 0px;
+    left: 357px;
+}
+.dInp_S .import {
+    width: 372px;
+    height: 42px;
+    color: #b2b2b2;
+    padding: 0 12px;
+    font-size: 12px;
+    float: left;
+
+}
+.dInp_S .inpBut {
+    float: right;
+    height: 42px;
+    width: 51px;
+    background-color: transparent;
+
+}
+/*������ѯ�Ľ���*/
+/*���а�Ŀ�ʼ*/
+.dList1 {
+    width: 625px;
+    height: 120px;
+    position: relative;
+    top: 45px;
+}
+.dList1 .top {
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    font-family: "����";
+    font-weight: 800;
+    font-size: 22px;
+    color: #262626;
+}
+.dList1>ul {
+    float: left;
+    width: 160px;
+    margin-right: 40px;
+}
+.dList1>ul>li>a{
+    color: #262626;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+    font-family:"microsoft yahei";
+}
+
+.dList1>ul>li a:hover {
+    color: #f2531c;
+    text-decoration: underline;
+}
+
+.dList1>ul>li {
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+ .dList1 .hide {
+    display: none;  
+    position: absolute;
+    width: 160px;
+    font-size: 12px;
+    font-family: "宋体";
+    opacity: .8;
+    background-color: #565656;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    z-index: 9;
+} 
+.dList1 .hide>li {
+    color: #9e9e9e;
+    line-height: 26px;
+    padding-left: 10px;
+}
+/*���а�Ľ���*/
+/*С���ߵĿ�ʼ*/
+.gadget {
+    position: relative;
+    left: 684px;
+    top: -75px;
+}
+.gadget .hide {
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    font-family: "����";
+    font-weight: 800;
+    font-size: 22px;
+    color: #262626;
+}
+
+.gadget span {
+    display: block;
+    line-height: 14px;
+    margin-top: 10px;
+}
+.gadget span a{
+    color: #262626;
+    font-size: 14px;
+    text-align: left;
+    font-family:"microsoft yahei";
+}
+.gadget span a:hover {
+    color: #f2531c;
+    text-decoration: underline;
+}
+/*小工具的结束*/
+/* 左边新闻的开始 */
+.left {
+    float: left;
+    width: 625px;
+    height: 462px;
+    padding: 18px 0;
+}
+
+.left .ulTab {
+    height: 35px;
+    position: relative;
+    font-family: "楷体";
+    font-size: 22px;
+    color: #fff;
+}
+.ulTab li {
+    float: left;
+    width: 130px;
+    height: 36px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+.ulTab li.current {
+    background-position: 0 0;
+    font-weight: bold;
+    color: #ff7d00;
+    border-bottom: 1px solid #ff7d00;
+}
+.dTabcon {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+    height: 170px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.dTabcon .ulTextlist .ones {
+    color: #ff7d00
+}
+.dTabcon ul {
+    display: none;
+}
+
+.dTabcon .current {
+    display: block;
+}
+.ulTextlist {
+    position: absolute;
+    top: 15px;
+    font-size: 14px;
+}
+
+.dAnswer {
+    height: 200px;
+    min-height: 200px;
+    position: relative;
+    width: 590px;
+    margin: 0 auto;
+    cursor: default;
+}
+.dAnswer ul li {
+    display: none;
+    height: 205px;
+    overflow: auto;
+    position: absolute;
+    top:0;
+    left:0;
+    margin-right: 20px;
+    width:100%;
+}
+
+.dAnswer ul li.current {
+    display: block;
+}
+.dAnswer .dBox p {
+    color: #b3b3b3;
+    font-size: 14px;
+    line-height: 24px;
+}
+.dAnswer .dBox p{
+    text-indent: 2em;
+}
+.dAnswer .dBox .pTitle {
+    height: 31px;
+    line-height: 31px;
+    color: #ff7d00;
+    font-weight: bold;
+    text-indent: 0;
+}
+.dAnswer .dNew h3{
+    height: 31px;
+    line-height: 31px;
+    color: #ff7d00;
+    font-weight: bold;
+    text-indent: 0;
+    font-size: 14px;
+}
+/*左边新闻的结束*/
+/*轮播图的开始  */
+.right {
+    width: 490px;
+    height: 182px;
+    float: right;
+    margin-top: 50px;
+}
+
+.screen {
+    width: 490px;
+    height: 182px;
+    overflow: hidden;
+    position: relative;
+}
+
+.screen li {
+    overflow: hidden;
+    width: 490px;
+    height: 182px;
+    float: left;
+}
+
+.screen ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2450px;
+}
+
+.right ol {
+    position: absolute;
+    left: 170px;
+    bottom: 5px;
+}
+
+.right ol li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+    background-color: #fff; 
+    cursor: pointer;
+    transform: rotate(45deg); 
+}
+
+.right ol li.current {
+     background-color: #ff581e; 
+}
+
+/*�ұ��ֲ�ͼ�Ľ���*/
+/*�ұ����ŵĿ�ʼ*/
+.right-news {
+    float: right;
+    width: 490px;
+    height: 218px;
+    background-color: 0.3;
+}
+
+.right-news h3 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    font-family: "����";
+    color: #fff;
+    margin-left: 10px;
+}
+
+.right-news .hotNews {
+    width: 490px;
+    height: 178px;
+    position: relative;
+}
+
+.right-news .hotNews ul {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.right-news .hotNews li {
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.right-news .hotNews li:first-child {
+    padding-top: 10px;
+}
+
+.right-news .hotNews li a {
+    color: #b3b3b3;
+}
+
+.right-news .hotNews li a:hover {
+    color: #ff7d00;
+}
+
+.right-news .dates {
+    position: absolute;
+    right: 20px;
+    color: #5e5e53;
+}
+
+/*�ұ����ŵĽ���*/
+/*��������¼�Ŀ�ʼ*/
+.bottom {
+    position: relative;
+    height: 100px;
+    top: 589px;
+
+}
+
+.bottom .other-login {
+    position: absolute;
+    width: 960px;
+    height: 33px;
+    /*background-color: 0.5;*/
+}
+.bottom .other-login ul{
+    position: absolute;
+    left: 312px;
+}
+
+.bottom .other-login .ul1>li {
+    margin-left: 20px;
+    float: left;
+    margin-top: 6px;
+}
+.bottom .other-login  .ul1>li a:hover{
+    color:#e23a3f;
+}
+.bottom .other-login .ul1>li:first-child{
+    font-size: 12px;
+    color: #777777;
+}
+.bottom .other-login .ul1 li i{
+    display: inline-block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 1px;
+    margin-right: 3px;
+}
+
+.bottom .other-login .ul1 li span{
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    color: #777777;
+    font-family: "����";
+}
+
+.other-login li .link {
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    top: -15px;
+    left: 45px;
+    padding: 2px;
+    background-color: #FFFFFF;
+    display: none;
+}
+
+.other-login .last {
+    position: relative;
+}
+/*改----------------------------*/
+.login li .link {
+    z-index: 588;
+}
+.last .link li {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    padding-left: 30px;
+    float: left;
+    color: #000000;
+    cursor: pointer;
+}
+.other-login .last .link .one {
+    color: #000000;
+    background: url("../imges/icon.v5.png") no-repeat -146px -45px;
+}
+.other-login .last .link .two {
+    background: url("../imges/icon.v5.png") no-repeat -146px -470px;
+}
+.other-login .last .link .three {
+    background: url("../imges/icon.v5.png") no-repeat -146px -245px;
+}
+.other-login .last .link .four {
+    background: url("../imges/icon.v5.png") no-repeat -146px -445px;
+}
+/*��������¼�Ľ���*/
+/*���Ŀ�ʼ*/
+.bottom .massage{
+    height: 70px;
+    position: absolute;
+    width: 100%;
+    top:35px;
+}
+.part {
+    width: 840px;
+    height: 72px;
+    margin: 0 auto;
+}
+.part .logo163 {
+    width: 258px;
+    height: 72px;
+    line-height: 72px;
+    float: left;
+
+}
+.part .nav {
+    float: left;
+    width: 450px;
+    height: 48px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+.part .nav span{
+    color: #e23a3f;
+    font-size: 12px;
+}
+.part .nav a{
+    color: #e23a3f;
+}
+.part .nav a:hover {
+    text-decoration: underline;
+}
